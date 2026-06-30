@@ -1,14 +1,46 @@
 {
   "name": "omnia-eye-frontend-design",
-  "version": "1.0.0",
+  "version": "2.0.0",
   "private": true,
   "type": "module",
   "scripts": {
-    "dev": "vite --host 127.0.0.1 --port 4318 --strictPort",
+    "dev": "vite",
     "build": "vite build",
-    "preview": "vite preview --host 127.0.0.1 --port 4318 --strictPort"
+    "preview": "vite preview --host 127.0.0.1 --port 4318",
+    "typecheck": "tsc -p src/product/tsconfig.json",
+    "test": "node --test scripts/product-*.test.*",
+    "format": "prettier --write src scripts index.html vite.config.js README.md docs",
+    "format:check": "prettier --check src scripts index.html vite.config.js README.md docs"
+  },
+  "dependencies": {
+    "@fontsource/ibm-plex-mono": "^5.3.0",
+    "@fontsource/manrope": "^5.3.0",
+    "@privy-io/react-auth": "^3.42.0",
+    "@sigma/node-image": "^3.0.0",
+    "@solana-program/memo": "0.10.0",
+    "@solana-program/system": "0.10.0",
+    "@solana-program/token": "0.9.0",
+    "@solana/kit": "5.5.1",
+    "graphology": "^0.26.0",
+    "graphology-layout-forceatlas2": "^0.10.1",
+    "graphology-layout-noverlap": "^0.4.2",
+    "gsap": "^3.15.0",
+    "react": "19.3.0",
+    "react-dom": "19.3.0",
+    "react-router-dom": "7.18.3",
+    "sigma": "^3.0.3",
+    "vite": "^8.3.0"
   },
   "devDependencies": {
-    "vite": "^8.3.0"
+    "@types/react": "19.3.0",
+    "@types/react-dom": "19.3.0",
+    "simple-icons": "^16.31.0",
+    "typescript": "7.0.2",
+    "prettier": "^3.6.2"
+  },
+  "overrides": {
+    "ws@>=8.0.0 <9": "8.21.3",
+    "axios": "1.20.0",
+    "typescript": "$typescript"
   }
 }

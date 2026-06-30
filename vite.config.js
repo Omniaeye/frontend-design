@@ -1,10 +1,10 @@
 import { defineConfig } from 'vite';
 
 export default defineConfig({
-  envDir: false,
-  envPrefix: 'OMNIA_PUBLIC_',
-  build: {
-    sourcemap: false,
-    target: 'es2022',
+  server: {
+    host: '127.0.0.1',
+    port: 4318,
+    strictPort: true,
+    fs: { deny: ['.env', '.env.*', '**/.git/**', '**/*.sqlite', '**/*.pem', '**/*.key'] },
   },
 });
