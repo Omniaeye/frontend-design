@@ -1,0 +1,346 @@
+/* Activity and preference surfaces share the existing OMNIA palette and type. */
+.catalog-selection {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 12px;
+  margin: 0 0 10px;
+  color: var(--titanium);
+  font-size: 10px;
+}
+.company-page {
+  max-width: 1280px;
+}
+.company-page .back-link {
+  margin-bottom: 18px;
+  font-size: 11px;
+}
+.company-heading {
+  gap: 18px;
+}
+.company-heading > .company-logo {
+  width: 48px;
+  height: 48px;
+}
+.company-heading > div:first-of-type {
+  min-width: 0;
+}
+.company-heading .eyebrow {
+  font-size: 9px;
+  margin-bottom: 5px;
+}
+.company-page .company-heading h1 {
+  font-size: 30px;
+  font-weight: 500;
+  line-height: 1.25;
+}
+.company-summary {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px 17px;
+  margin: 18px 0 22px;
+  color: var(--titanium);
+  font-size: 10px;
+}
+.company-summary > span + span::before {
+  content: '·';
+  margin-right: 17px;
+  opacity: 0.65;
+}
+.source-tabs {
+  gap: 7px;
+  margin: 0;
+  padding: 0;
+  border-color: var(--line);
+}
+.source-tabs button {
+  display: inline-flex;
+  align-items: center;
+  gap: 7px;
+  padding: 13px 11px;
+  font-size: 11px;
+  border-radius: 5px 5px 0 0;
+  transition:
+    background 0.2s,
+    color 0.2s;
+}
+.source-tabs button:hover {
+  background: #182d35;
+  color: var(--mineral);
+}
+.source-tabs button[aria-selected='true'] {
+  background: #193138;
+}
+.source-tabs button small {
+  font:
+    400 8px 'IBM Plex Mono',
+    monospace;
+  color: var(--titanium);
+  min-width: 10px;
+}
+.source-tabs button::after {
+  left: 10px;
+  right: 10px;
+}
+.company-content {
+  display: block;
+  margin-top: 17px;
+  min-width: 0;
+}
+.activity-toolbar {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+  border: 1px solid var(--line);
+  padding: 4px 10px;
+  margin-bottom: 20px;
+  border-radius: 5px;
+}
+.activity-toolbar .search-field {
+  flex: 1;
+  min-width: 0;
+  border: 0;
+}
+.activity-toolbar .search-field input {
+  font-size: 11px;
+  padding: 9px 0;
+}
+.activity-toolbar .filter-menu summary {
+  min-height: 36px;
+  font-size: 10px;
+  padding: 8px 10px;
+}
+.activity-heading {
+  margin-bottom: 13px;
+}
+.activity-heading h2 {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  font-size: 14px;
+}
+.activity-heading .status-tag {
+  font-size: 8px;
+}
+.filter-options label {
+  min-width: 0;
+  align-items: center;
+}
+.filter-options label > span {
+  min-width: 0;
+  overflow-wrap: anywhere;
+}
+.filter-options .platform-icon {
+  flex-shrink: 0;
+}
+.event-panel .event-tags > span {
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+}
+.following-controls {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 14px;
+  flex-wrap: wrap;
+  margin: 0 0 14px;
+}
+.following-controls .segmented button {
+  display: inline-flex;
+  align-items: center;
+  gap: 7px;
+  font-size: 11px;
+  padding: 9px 12px;
+}
+.delivery-note {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  color: var(--titanium);
+  font-size: 10px;
+  margin: 14px 0 24px;
+  line-height: 1.6;
+}
+.delivery-note > .platform-icon {
+  flex-shrink: 0;
+}
+.channel-table .following-row,
+.channel-table .following-table-head {
+  grid-template-columns: minmax(170px, 1fr) 160px 160px 120px;
+  gap: 20px;
+}
+.channel-table .following-row {
+  padding: 16px 0;
+}
+.channel-table .following-company {
+  gap: 13px;
+}
+.channel-table .following-company strong {
+  font-size: 12px;
+}
+.channel-table .following-company .company-logo {
+  width: 30px;
+  height: 30px;
+}
+.channel-summary {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  color: var(--titanium);
+}
+.channel-summary small {
+  font-size: 9px;
+}
+.channel-icons {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 7px;
+}
+.channel-mobile-label {
+  display: none;
+}
+.feed-toolbar .filter-group {
+  flex-wrap: wrap;
+}
+.feed-toolbar .filter-options {
+  max-height: 320px;
+}
+.feed-page .compact-heading h1 {
+  font-size: 27px;
+}
+.feed-following {
+  padding: 8px 0 16px;
+}
+.feed-page .activity-stream {
+  background: linear-gradient(120deg, #13242a55, transparent 65%);
+}
+@media (min-width: 1100px) {
+  .feed-page {
+    max-width: 1380px;
+  }
+  .feed-page .activity-row {
+    padding: 16px 15px;
+  }
+}
+@media (max-width: 1000px) {
+  .channel-table .following-row,
+  .channel-table .following-table-head {
+    grid-template-columns: minmax(135px, 1fr) 115px 115px 110px;
+    gap: 12px;
+  }
+}
+@media (max-width: 700px) {
+  .company-page .company-heading h1 {
+    font-size: 23px;
+  }
+  .company-heading {
+    gap: 12px;
+    flex-wrap: wrap;
+  }
+  .company-heading > .company-logo {
+    width: 36px;
+    height: 36px;
+  }
+  .company-heading > div:first-of-type {
+    flex: 1;
+  }
+  .company-summary {
+    gap: 6px 10px;
+    font-size: 9px;
+    margin: 15px 0;
+  }
+  .company-summary > span + span::before {
+    margin-right: 10px;
+  }
+  .company-summary > span:last-child {
+    display: none;
+  }
+  .source-tabs {
+    gap: 3px;
+    margin-right: -16px;
+    padding-right: 16px;
+  }
+  .source-tabs button {
+    padding: 13px 9px;
+    gap: 6px;
+    font-size: 10px;
+  }
+  .source-tabs button small {
+    display: none;
+  }
+  .activity-toolbar {
+    margin-bottom: 16px;
+    padding: 3px 6px;
+    gap: 8px;
+  }
+  .activity-toolbar .search-field {
+    gap: 7px;
+  }
+  .activity-toolbar .search-field input {
+    font-size: 10px;
+  }
+  .activity-toolbar .filter-options {
+    right: 0;
+    left: auto;
+    max-width: calc(100vw - 40px);
+  }
+  .catalog-selection {
+    font-size: 9px;
+    gap: 8px;
+  }
+  .catalog-selection > span {
+    max-width: 110px;
+  }
+  .following-controls {
+    gap: 12px;
+  }
+  .following-controls .segmented {
+    width: 100%;
+  }
+  .following-controls .segmented button {
+    flex: 1;
+    justify-content: center;
+    font-size: 10px;
+  }
+  .channel-table .following-table-head {
+    display: none;
+  }
+  .channel-table .following-row {
+    grid-template-columns: minmax(0, 1fr) minmax(0, 1fr);
+    gap: 12px 16px;
+    padding: 16px 0;
+  }
+  .channel-table .following-company {
+    grid-column: 1;
+  }
+  .channel-table .following-row > .tracking-control {
+    grid-column: 2;
+    grid-row: 1;
+    justify-self: end;
+  }
+  .channel-table .channel-summary {
+    grid-row: 2;
+  }
+  .channel-mobile-label {
+    display: block;
+    font-size: 9px;
+    color: var(--mineral);
+  }
+  .channel-summary {
+    gap: 6px;
+  }
+  .delivery-note {
+    font-size: 9px;
+    margin-bottom: 19px;
+  }
+  .feed-page .compact-heading h1 {
+    font-size: 24px;
+  }
+  .feed-toolbar .filter-group {
+    gap: 5px;
+  }
+  .feed-toolbar .filter-menu summary {
+    min-height: 34px;
+  }
+}
