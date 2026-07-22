@@ -7,3 +7,4 @@ of this repository.
 
 - **2026-07-21 — discovery:** frame the intelligence-before-consensus premise.
 - **2026-07-21 — discovery:** map fragmented public-signal journeys.
+- **2026-07-22 — discovery:** define the observation-to-insight transition.
