@@ -9,3 +9,4 @@ of this repository.
 - **2026-07-21 — discovery:** map fragmented public-signal journeys.
 - **2026-07-22 — discovery:** define the observation-to-insight transition.
 - **2026-07-22 — discovery:** audit financial intelligence interfaces.
+- **2026-07-23 — discovery:** set the public-study boundary.
