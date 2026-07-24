@@ -11,3 +11,4 @@ of this repository.
 - **2026-07-22 — discovery:** audit financial intelligence interfaces.
 - **2026-07-23 — discovery:** set the public-study boundary.
 - **2026-07-24 — discovery:** document source legibility principles.
+- **2026-07-24 — discovery:** define the three-act page structure.
