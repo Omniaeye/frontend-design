@@ -13,3 +13,4 @@ of this repository.
 - **2026-07-24 — discovery:** document source legibility principles.
 - **2026-07-24 — discovery:** define the three-act page structure.
 - **2026-07-25 — discovery:** establish evidence-first interface language.
+- **2026-07-25 — discovery:** separate showcase and production scope.
