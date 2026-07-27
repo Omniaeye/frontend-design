@@ -15,3 +15,4 @@ of this repository.
 - **2026-07-25 — discovery:** establish evidence-first interface language.
 - **2026-07-25 — discovery:** separate showcase and production scope.
 - **2026-07-26 — discovery:** close the experience brief.
+- **2026-07-27 — brand:** establish graphite and petroleum surfaces.
