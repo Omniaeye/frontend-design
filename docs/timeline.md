@@ -18,3 +18,4 @@ of this repository.
 - **2026-07-27 — brand:** establish graphite and petroleum surfaces.
 - **2026-07-27 — brand:** define mineral-white type hierarchy.
 - **2026-07-28 — brand:** reserve emerald for focus states.
+- **2026-07-28 — brand:** introduce jade signal accents.
