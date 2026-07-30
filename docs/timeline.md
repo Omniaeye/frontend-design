@@ -20,3 +20,4 @@ of this repository.
 - **2026-07-28 — brand:** reserve emerald for focus states.
 - **2026-07-28 — brand:** introduce jade signal accents.
 - **2026-07-29 — brand:** set quiet geometric line language.
+- **2026-07-30 — brand:** pair Manrope with IBM Plex Mono.
