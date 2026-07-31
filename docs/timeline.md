@@ -23,3 +23,4 @@ of this repository.
 - **2026-07-30 — brand:** pair Manrope with IBM Plex Mono.
 - **2026-07-30 — brand:** shape the OMNIA EYE wordmark treatment.
 - **2026-07-31 — brand:** define restrained interface contrast.
+- **2026-07-31 — brand:** document public-facing voice.
