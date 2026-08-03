@@ -28,3 +28,4 @@ of this repository.
 - **2026-08-02 — architecture:** create the dependency-light Vite shell.
 - **2026-08-02 — architecture:** isolate public environment variables.
 - **2026-08-03 — architecture:** disable production source maps.
+- **2026-08-03 — architecture:** define the responsive document structure.
