@@ -27,3 +27,4 @@ of this repository.
 - **2026-08-01 — brand:** consolidate the visual foundation.
 - **2026-08-02 — architecture:** create the dependency-light Vite shell.
 - **2026-08-02 — architecture:** isolate public environment variables.
+- **2026-08-03 — architecture:** disable production source maps.
