@@ -1,0 +1,11 @@
+.platform-icon {
+  display: inline-block;
+  flex: none;
+  vertical-align: middle;
+  color: var(--titanium, #a8b8bd);
+}
+.platform-icon--brand {
+  background: var(--platform-color, currentColor);
+  -webkit-mask: var(--platform-mask) center / contain no-repeat;
+  mask: var(--platform-mask) center / contain no-repeat;
+}
