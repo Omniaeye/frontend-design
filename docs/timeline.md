@@ -30,3 +30,4 @@ of this repository.
 - **2026-08-03 — architecture:** disable production source maps.
 - **2026-08-03 — architecture:** define the responsive document structure.
 - **2026-08-04 — architecture:** add semantic section landmarks.
+- **2026-08-05 — architecture:** separate motion and content layers.
