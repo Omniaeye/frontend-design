@@ -1,0 +1,72 @@
+.company-logo.brand-logo {
+  position: relative;
+  flex: 0 0 auto;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  background: transparent;
+  border: 0;
+  overflow: hidden;
+  border-radius: 6px;
+  isolation: isolate;
+}
+.company-logo.brand-logo--light {
+  background: #fff;
+  padding: 4px;
+}
+.company-logo.brand-logo--yellow {
+  background: #fffc00;
+  padding: 4px;
+}
+.company-logo.brand-logo--black {
+  background: #000;
+}
+.company-logo.brand-logo > .brand-logo__image {
+  width: 100%;
+  height: 100%;
+  max-width: none;
+  max-height: none;
+  object-fit: contain;
+  filter: none;
+  border-radius: 0;
+  transform: scale(var(--brand-scale, 1));
+}
+.company-logo.brand-logo > .brand-logo__probe {
+  position: absolute;
+  opacity: 0;
+}
+.brand-logo__vector {
+  display: block;
+  width: 100%;
+  height: 100%;
+  background-color: var(--brand-color, #f3f5f2);
+  mask-image: var(--brand-mask);
+  mask-position: center;
+  mask-repeat: no-repeat;
+  mask-size: contain;
+  -webkit-mask-image: var(--brand-mask);
+  -webkit-mask-position: center;
+  -webkit-mask-repeat: no-repeat;
+  -webkit-mask-size: contain;
+}
+.company-logo.brand-logo .logo-fallback {
+  font:
+    500 11px 'IBM Plex Mono',
+    monospace;
+}
+.company-open
+  .company-logo.brand-logo:is(
+    [data-ticker='COIN'],
+    [data-ticker='AMD'],
+    [data-ticker='COST'],
+    [data-ticker='IBM'],
+    [data-ticker='LMT'],
+    [data-ticker='SPY']
+  ) {
+  width: 66px;
+  max-width: 100%;
+}
+.company-open .brand-logo:is([data-ticker='COIN'], [data-ticker='AMD']) .brand-logo__vector {
+  mask-size: 100% auto;
+  -webkit-mask-size: 100% auto;
+}
