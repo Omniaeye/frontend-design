@@ -33,3 +33,4 @@ of this repository.
 - **2026-08-05 — architecture:** separate motion and content layers.
 - **2026-08-05 — architecture:** establish canvas lifecycle boundaries.
 - **2026-08-06 — architecture:** add production build commands.
+- **2026-08-06 — architecture:** set repository exclusion rules.
