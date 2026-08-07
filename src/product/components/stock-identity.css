@@ -1,0 +1,45 @@
+.stock-identity {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 7px;
+  width: 100%;
+  min-width: 0;
+}
+.stock-identity > a {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 5px;
+  color: #dcebe6;
+  max-width: 100%;
+  text-decoration: none;
+}
+.stock-identity strong {
+  font:
+    600 11px/1.35 'IBM Plex Mono',
+    monospace;
+  overflow-wrap: anywhere;
+}
+.stock-identity > a > .company-logo.brand-logo {
+  width: 32px;
+  height: 32px;
+  border-radius: 5px;
+  flex: none;
+}
+.stock-identity--multiple > a {
+  flex-direction: row;
+  gap: 5px;
+  width: 100%;
+  justify-content: center;
+}
+.stock-identity--multiple strong {
+  font-size: 10px;
+}
+.stock-identity--multiple > a > .company-logo.brand-logo {
+  width: 20px;
+  height: 20px;
+}
+.stock-identity > a:hover {
+  color: var(--jade);
+}
