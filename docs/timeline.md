@@ -34,3 +34,4 @@ of this repository.
 - **2026-08-05 — architecture:** establish canvas lifecycle boundaries.
 - **2026-08-06 — architecture:** add production build commands.
 - **2026-08-06 — architecture:** set repository exclusion rules.
+- **2026-08-07 — architecture:** validate the initial application shell.
