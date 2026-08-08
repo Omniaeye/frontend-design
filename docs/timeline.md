@@ -35,3 +35,4 @@ of this repository.
 - **2026-08-06 — architecture:** add production build commands.
 - **2026-08-06 — architecture:** set repository exclusion rules.
 - **2026-08-07 — architecture:** validate the initial application shell.
+- **2026-08-08 — signal-field:** prototype the distributed signal field.
