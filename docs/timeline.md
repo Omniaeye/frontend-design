@@ -36,3 +36,4 @@ of this repository.
 - **2026-08-06 — architecture:** set repository exclusion rules.
 - **2026-08-07 — architecture:** validate the initial application shell.
 - **2026-08-08 — signal-field:** prototype the distributed signal field.
+- **2026-08-08 — signal-field:** add depth-weighted signal nodes.
