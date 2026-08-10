@@ -38,3 +38,4 @@ of this repository.
 - **2026-08-08 — signal-field:** prototype the distributed signal field.
 - **2026-08-08 — signal-field:** add depth-weighted signal nodes.
 - **2026-08-09 — signal-field:** introduce deterministic color roles.
+- **2026-08-10 — signal-field:** connect pointer movement to field drift.
