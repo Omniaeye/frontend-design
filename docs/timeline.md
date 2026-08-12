@@ -42,3 +42,4 @@ of this repository.
 - **2026-08-10 — signal-field:** add restrained node parallax.
 - **2026-08-11 — signal-field:** draw proximity-based relationships.
 - **2026-08-11 — signal-field:** cap canvas pixel density.
+- **2026-08-12 — signal-field:** handle viewport resizing.
