@@ -43,3 +43,4 @@ of this repository.
 - **2026-08-11 — signal-field:** draw proximity-based relationships.
 - **2026-08-11 — signal-field:** cap canvas pixel density.
 - **2026-08-12 — signal-field:** handle viewport resizing.
+- **2026-08-13 — signal-field:** tune low-contrast background activity.
