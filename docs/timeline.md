@@ -45,3 +45,4 @@ of this repository.
 - **2026-08-12 — signal-field:** handle viewport resizing.
 - **2026-08-13 — signal-field:** tune low-contrast background activity.
 - **2026-08-13 — signal-field:** stabilize the signal animation loop.
+- **2026-08-14 — observation-lens:** construct the observation lens.
