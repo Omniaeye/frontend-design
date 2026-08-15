@@ -1,0 +1,208 @@
+.preset-trigger {
+  display: flex;
+  gap: 10px;
+  align-items: center;
+  border: 1px solid #29433f;
+  background: #102723;
+  color: #dcece6;
+  border-radius: 7px;
+  padding: 9px 13px;
+  cursor: pointer;
+}
+.preset-trigger span {
+  color: #71ddba;
+  font-size: 12px;
+}
+.preset-dialog {
+  width: min(900px, calc(100vw - 32px));
+  max-height: 88dvh;
+  box-sizing: border-box;
+  padding: 32px;
+  border: 1px solid #345249;
+  border-radius: 16px;
+  background: #091b18;
+  color: #e6f2ec;
+  box-shadow: 0 32px 110px #0009;
+}
+.preset-dialog::backdrop {
+  background: #020d0bca;
+  backdrop-filter: blur(5px);
+}
+.preset-dialog header {
+  display: flex;
+  justify-content: space-between;
+  gap: 16px;
+}
+.preset-dialog h2 {
+  font-size: clamp(25px, 4vw, 38px);
+  letter-spacing: -1.2px;
+  margin: 10px 0;
+}
+.preset-dialog p {
+  color: #a4b9b2;
+  line-height: 1.6;
+  font-size: 13px;
+}
+.preset-dialog small {
+  font-size: 11px;
+  color: #8ea99f;
+}
+.preset-dialog button {
+  cursor: pointer;
+  font: inherit;
+}
+.preset-dialog button:disabled {
+  opacity: 0.5;
+  cursor: wait;
+}
+.preset-dialog header > button {
+  align-self: start;
+  background: none;
+  border: 0;
+  color: inherit;
+  font-size: 26px;
+}
+.preset-options {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 12px;
+  margin: 26px 0;
+}
+.preset-options button {
+  padding: 20px;
+  text-align: left;
+  color: inherit;
+  border: 1px solid #29453b;
+  background: #0c211b;
+  border-radius: 10px;
+}
+.preset-options button[aria-checked='true'] {
+  border-color: #55dbaa;
+  background: #12352a;
+}
+.preset-options strong {
+  display: block;
+  margin: 20px 0 10px;
+  font-size: 21px;
+}
+.preset-options span {
+  display: block;
+  margin-top: 20px;
+  color: #74e3b8;
+  font-size: 12px;
+}
+.personal-presets {
+  border-top: 1px solid #29453b;
+  padding-top: 16px;
+}
+.personal-presets h3 {
+  font-size: 16px;
+  display: flex;
+  justify-content: space-between;
+}
+.personal-preset {
+  display: flex;
+  gap: 10px;
+  margin: 8px 0;
+}
+.personal-preset > button:first-child {
+  flex: 1;
+  display: flex;
+  justify-content: space-between;
+  gap: 12px;
+  text-align: left;
+}
+.personal-presets button,
+.personal-presets input {
+  border: 1px solid #345249;
+  border-radius: 6px;
+  padding: 10px;
+  background: #0c211b;
+  color: inherit;
+}
+.personal-presets button[aria-pressed='true'] {
+  border-color: #55dbaa;
+}
+.personal-presets form {
+  margin: 20px 0;
+}
+.personal-presets label {
+  display: block;
+  font-size: 12px;
+  margin-bottom: 8px;
+  color: #adc4b9;
+}
+.personal-presets form > div {
+  display: flex;
+  gap: 10px;
+}
+.personal-presets input {
+  min-width: 0;
+  flex: 1;
+}
+.preset-dialog footer {
+  display: flex;
+  align-items: center;
+  gap: 24px;
+  border-top: 1px solid #29453b;
+  padding-top: 18px;
+}
+.preset-dialog footer p {
+  flex: 1;
+  font-size: 12px;
+}
+.preset-apply {
+  white-space: nowrap;
+  background: #79edbb;
+  color: #05271a;
+  border: 0;
+  padding: 13px 24px;
+  border-radius: 6px;
+}
+.preset-error {
+  color: #ffb7a6 !important;
+}
+.preset-dialog :focus-visible {
+  outline: 2px solid #92ffd4;
+  outline-offset: 3px;
+}
+@media (max-width: 640px) {
+  .preset-dialog {
+    padding: 20px;
+  }
+  .preset-options {
+    grid-template-columns: 1fr;
+  }
+  .preset-options strong {
+    margin-top: 10px;
+  }
+  .preset-options p {
+    margin: 8px 0;
+  }
+  .preset-options span {
+    margin-top: 10px;
+  }
+  .preset-dialog footer {
+    align-items: stretch;
+    flex-direction: column;
+    gap: 4px;
+  }
+  .personal-preset > button:first-child {
+    flex-direction: column;
+  }
+}
+
+.preset-dialog footer {
+  justify-content: flex-end;
+}
+.preset-options span {
+  height: 16px;
+  text-align: right;
+  margin-top: 12px;
+}
+.preset-dialog h2 {
+  margin-top: 0;
+}
+.preset-options {
+  margin-top: 20px;
+}
