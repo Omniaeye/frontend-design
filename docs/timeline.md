@@ -48,3 +48,4 @@ of this repository.
 - **2026-08-14 — observation-lens:** construct the observation lens.
 - **2026-08-14 — observation-lens:** add concentric focus geometry.
 - **2026-08-15 — observation-lens:** animate the scanning beam.
+- **2026-08-16 — observation-lens:** introduce independent orbital motion.
