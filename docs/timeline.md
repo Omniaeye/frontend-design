@@ -50,3 +50,4 @@ of this repository.
 - **2026-08-15 — observation-lens:** animate the scanning beam.
 - **2026-08-16 — observation-lens:** introduce independent orbital motion.
 - **2026-08-16 — observation-lens:** connect scroll position to lens scale.
+- **2026-08-17 — observation-lens:** pull nearby signals toward focus.
