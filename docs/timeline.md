@@ -51,3 +51,4 @@ of this repository.
 - **2026-08-16 — observation-lens:** introduce independent orbital motion.
 - **2026-08-16 — observation-lens:** connect scroll position to lens scale.
 - **2026-08-17 — observation-lens:** pull nearby signals toward focus.
+- **2026-08-17 — observation-lens:** add the observation phase label.
