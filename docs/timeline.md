@@ -52,3 +52,4 @@ of this repository.
 - **2026-08-16 — observation-lens:** connect scroll position to lens scale.
 - **2026-08-17 — observation-lens:** pull nearby signals toward focus.
 - **2026-08-17 — observation-lens:** add the observation phase label.
+- **2026-08-18 — observation-lens:** balance lens glow and readability.
