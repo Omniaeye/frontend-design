@@ -56,3 +56,4 @@ of this repository.
 - **2026-08-19 — observation-lens:** tune the desktop focal composition.
 - **2026-08-19 — observation-lens:** complete the lens motion study.
 - **2026-08-20 — source-stream:** design the source-card vocabulary.
+- **2026-08-20 — source-stream:** add filings to the demonstration stream.
