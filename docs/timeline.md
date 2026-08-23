@@ -61,3 +61,4 @@ of this repository.
 - **2026-08-22 — source-stream:** add public-news context.
 - **2026-08-22 — source-stream:** add social-attention context.
 - **2026-08-23 — source-stream:** add market-response context.
+- **2026-08-23 — source-stream:** create the continuous stream loop.
