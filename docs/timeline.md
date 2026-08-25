@@ -63,3 +63,4 @@ of this repository.
 - **2026-08-23 — source-stream:** add market-response context.
 - **2026-08-23 — source-stream:** create the continuous stream loop.
 - **2026-08-24 — source-stream:** mask stream edges for depth.
+- **2026-08-25 — source-stream:** balance moving copy against the lens.
