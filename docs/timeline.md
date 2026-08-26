@@ -65,3 +65,4 @@ of this repository.
 - **2026-08-24 — source-stream:** mask stream edges for depth.
 - **2026-08-25 — source-stream:** balance moving copy against the lens.
 - **2026-08-25 — source-stream:** finalize the fragmented-input scene.
+- **2026-08-26 — connected-view:** compose the connected-view section.
