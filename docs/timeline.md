@@ -67,3 +67,4 @@ of this repository.
 - **2026-08-25 — source-stream:** finalize the fragmented-input scene.
 - **2026-08-26 — connected-view:** compose the connected-view section.
 - **2026-08-26 — connected-view:** define the four-source example.
+- **2026-08-27 — connected-view:** add source classification labels.
