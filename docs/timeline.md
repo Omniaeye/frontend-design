@@ -68,3 +68,4 @@ of this repository.
 - **2026-08-26 — connected-view:** compose the connected-view section.
 - **2026-08-26 — connected-view:** define the four-source example.
 - **2026-08-27 — connected-view:** add source classification labels.
+- **2026-08-28 — connected-view:** draw staged connector paths.
