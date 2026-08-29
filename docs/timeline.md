@@ -70,3 +70,4 @@ of this repository.
 - **2026-08-27 — connected-view:** add source classification labels.
 - **2026-08-28 — connected-view:** draw staged connector paths.
 - **2026-08-28 — connected-view:** introduce the convergence pulse.
+- **2026-08-29 — connected-view:** build the structured insight card.
