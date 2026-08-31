@@ -1,0 +1,253 @@
+.feed-tabs {
+  display: flex;
+  gap: 24px;
+  border-bottom: 1px solid #294047;
+  margin-bottom: 22px;
+}
+.feed-tabs a {
+  padding: 12px 0;
+  color: #9fb5bc;
+  text-decoration: none;
+}
+.feed-tabs a[aria-current='page'] {
+  color: #fff;
+  border-bottom: 2px solid #00dda4;
+}
+.token-toolbar {
+  display: flex;
+  align-items: center;
+  gap: 18px;
+  margin-bottom: 20px;
+}
+.token-toolbar span {
+  color: #00dda4;
+}
+.token-toolbar button {
+  margin-left: auto;
+}
+.token-selection {
+  border: 1px solid #294047;
+  padding: 16px;
+  border-radius: 6px;
+  margin-bottom: 20px;
+}
+.token-selection summary {
+  cursor: pointer;
+}
+.token-selection > div {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(220px, 1fr));
+  gap: 12px;
+  margin-top: 20px;
+  max-height: 320px;
+  overflow: auto;
+}
+.token-selection label {
+  display: flex;
+  gap: 8px;
+  align-items: center;
+}
+.token-selection small {
+  color: #94acb5;
+}
+.token-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(min(100%, 330px), 1fr));
+  gap: 16px;
+}
+.token-card {
+  padding: 20px;
+  border: 1px solid #294047;
+  background: #122127;
+  border-radius: 7px;
+  min-width: 0;
+}
+.token-card header {
+  display: flex;
+  gap: 12px;
+  align-items: center;
+}
+.token-card img {
+  width: 44px;
+  height: 44px;
+  object-fit: cover;
+  border-radius: 50%;
+}
+.token-card h2 {
+  font-size: 16px;
+  margin: 0 0 6px;
+}
+.token-card span,
+.token-card time,
+.token-notice {
+  font-size: 12px;
+  color: #9fb5bc;
+}
+.token-card time {
+  display: block;
+  margin-top: 16px;
+}
+.token-card p {
+  line-height: 1.6;
+  overflow-wrap: anywhere;
+  white-space: pre-wrap;
+}
+.token-address {
+  font: 11px monospace;
+  color: #9fb5bc;
+}
+.token-card footer {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 14px;
+}
+.token-card a {
+  color: #00dda4;
+}
+.token-notice {
+  margin: 20px 0;
+}
+/* One complete token record per row, shared by the overview and Tokens tab. */
+.token-grid {
+  display: flex;
+  flex-direction: column;
+  gap: 0;
+  border-top: 1px solid #294047;
+}
+.token-card {
+  display: grid;
+  grid-template-columns: minmax(220px, 1fr) auto;
+  gap: 7px 18px;
+  padding: 13px 16px;
+  border: 0;
+  border-bottom: 1px solid #294047;
+  border-radius: 0;
+  background: transparent;
+}
+.token-card header {
+  gap: 10px;
+  min-width: 0;
+}
+.token-card header > div {
+  min-width: 0;
+}
+.token-card h2 {
+  font-size: 13px;
+  line-height: 1.4;
+  margin-bottom: 3px;
+  overflow-wrap: anywhere;
+}
+.token-card img {
+  width: 32px;
+  height: 32px;
+  flex-shrink: 0;
+}
+.token-card span,
+.token-card time {
+  font-size: 10px;
+}
+.token-card time {
+  margin: 0;
+  align-self: center;
+  text-align: right;
+}
+.token-card .token-address {
+  margin: 0;
+  grid-column: 1/-1;
+  font-size: 10px;
+}
+.token-card .token-description {
+  margin: 0;
+  grid-column: 1/-1;
+  font-size: 12px;
+  line-height: 1.5;
+}
+.token-card footer {
+  grid-column: 1/-1;
+  font-size: 11px;
+  gap: 12px;
+}
+.token-feed-compact .token-toolbar {
+  gap: 8px;
+  margin: 12px 0;
+  font-size: 11px;
+  flex-wrap: wrap;
+}
+.token-feed-compact .token-selection {
+  padding: 10px;
+  margin-bottom: 10px;
+  font-size: 11px;
+}
+.token-feed-compact .token-selection > div {
+  grid-template-columns: minmax(0, 1fr);
+}
+.token-feed-compact .token-card {
+  grid-template-columns: minmax(0, 1fr);
+  padding: 12px 0;
+  gap: 6px;
+}
+.token-feed-compact .token-card time {
+  text-align: left;
+}
+.token-feed-compact .token-notice {
+  font-size: 10px;
+  line-height: 1.5;
+}
+@media (max-width: 650px) {
+  .token-card {
+    grid-template-columns: minmax(0, 1fr);
+  }
+  .token-card time {
+    text-align: left;
+  }
+  .feed-tabs {
+    gap: 20px;
+    overflow-x: auto;
+    white-space: nowrap;
+  }
+}
+
+.token-card .token-rwa {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+  margin-top: 4px;
+}
+.token-card .token-rwa img {
+  width: 18px;
+  height: 18px;
+  object-fit: contain;
+  border-radius: 3px;
+}
+.token-card .token-rwa strong {
+  color: #d7eee8;
+  font-size: 11px;
+}
+.token-mark {
+  display: grid;
+  place-items: center;
+  width: 38px;
+  height: 38px;
+  flex: none;
+  overflow: hidden;
+  border: 1px solid rgba(120, 242, 194, 0.2);
+  border-radius: 11px;
+  color: var(--jade);
+  background: linear-gradient(145deg, #19332b, #0b1718);
+}
+.token-mark > img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  border-radius: 10px;
+}
+.token-card .token-rwa .company-logo {
+  width: 18px;
+  height: 18px;
+  border-radius: 4px;
+}
+.token-selection label > .company-logo {
+  width: 22px;
+  height: 22px;
+  margin-left: 2px;
+}
