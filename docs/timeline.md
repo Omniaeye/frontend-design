@@ -73,3 +73,4 @@ of this repository.
 - **2026-08-29 — connected-view:** build the structured insight card.
 - **2026-08-30 — connected-view:** separate observation from interpretation.
 - **2026-08-30 — connected-view:** add time-window context.
+- **2026-08-31 — connected-view:** animate insight assembly on entry.
