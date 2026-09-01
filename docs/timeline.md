@@ -75,3 +75,4 @@ of this repository.
 - **2026-08-30 — connected-view:** add time-window context.
 - **2026-08-31 — connected-view:** animate insight assembly on entry.
 - **2026-08-31 — connected-view:** complete the signal-to-context narrative.
+- **2026-09-01 — responsive:** adapt the headline for narrow screens.
