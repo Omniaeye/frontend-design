@@ -77,3 +77,4 @@ of this repository.
 - **2026-08-31 — connected-view:** complete the signal-to-context narrative.
 - **2026-09-01 — responsive:** adapt the headline for narrow screens.
 - **2026-09-02 — responsive:** rebalance the mobile lens position.
+- **2026-09-02 — responsive:** convert source inputs to a two-column grid.
