@@ -79,3 +79,4 @@ of this repository.
 - **2026-09-02 — responsive:** rebalance the mobile lens position.
 - **2026-09-02 — responsive:** convert source inputs to a two-column grid.
 - **2026-09-03 — responsive:** stack the mobile connector path.
+- **2026-09-03 — responsive:** tighten insight spacing for phones.
