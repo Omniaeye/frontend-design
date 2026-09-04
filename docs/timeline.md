@@ -80,3 +80,4 @@ of this repository.
 - **2026-09-02 — responsive:** convert source inputs to a two-column grid.
 - **2026-09-03 — responsive:** stack the mobile connector path.
 - **2026-09-03 — responsive:** tighten insight spacing for phones.
+- **2026-09-04 — responsive:** simplify mobile header metadata.
