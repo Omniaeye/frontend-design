@@ -86,3 +86,4 @@ of this repository.
 - **2026-09-06 — responsive:** verify desktop and mobile hierarchy.
 - **2026-09-06 — responsive:** complete responsive layout tuning.
 - **2026-09-07 — accessibility:** add the skip-navigation path.
+- **2026-09-08 — accessibility:** label primary navigation destinations.
