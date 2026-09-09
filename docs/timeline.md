@@ -88,3 +88,4 @@ of this repository.
 - **2026-09-07 — accessibility:** add the skip-navigation path.
 - **2026-09-08 — accessibility:** label primary navigation destinations.
 - **2026-09-08 — accessibility:** preserve semantic heading order.
+- **2026-09-09 — accessibility:** keep insight content outside the canvas.
