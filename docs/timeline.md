@@ -91,3 +91,4 @@ of this repository.
 - **2026-09-09 — accessibility:** keep insight content outside the canvas.
 - **2026-09-09 — accessibility:** add visible keyboard focus treatment.
 - **2026-09-10 — accessibility:** respect reduced-motion preferences.
+- **2026-09-11 — accessibility:** remove motion-only meaning.
