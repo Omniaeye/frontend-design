@@ -94,3 +94,4 @@ of this repository.
 - **2026-09-11 — accessibility:** remove motion-only meaning.
 - **2026-09-11 — accessibility:** verify readable contrast roles.
 - **2026-09-12 — accessibility:** validate the accessible content tree.
+- **2026-09-12 — accessibility:** close the accessibility pass.
