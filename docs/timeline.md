@@ -97,3 +97,4 @@ of this repository.
 - **2026-09-12 — accessibility:** close the accessibility pass.
 - **2026-09-13 — release:** document the bounded public scope.
 - **2026-09-14 — release:** add source-available usage terms.
+- **2026-09-14 — release:** remove production-only dependencies.
