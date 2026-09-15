@@ -99,3 +99,4 @@ of this repository.
 - **2026-09-14 — release:** add source-available usage terms.
 - **2026-09-14 — release:** remove production-only dependencies.
 - **2026-09-15 — release:** confirm the repository contains no binary assets.
+- **2026-09-15 — release:** scan the public tree for credentials.
