@@ -102,3 +102,4 @@ of this repository.
 - **2026-09-15 — release:** scan the public tree for credentials.
 - **2026-09-16 — release:** verify the clean npm install.
 - **2026-09-17 — release:** verify the production bundle.
+- **2026-09-17 — release:** review desktop presentation.
