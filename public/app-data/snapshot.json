@@ -1,0 +1,19 @@
+{
+  "meta": {
+    "schemaVersion": 1,
+    "mode": "snapshot",
+    "capturedAt": null,
+    "builtAt": "2026-09-20T00:00:00Z",
+    "companyCount": 0,
+    "sourceCount": 0,
+    "eventCount": 0,
+    "liveConnected": false,
+    "partial": true,
+    "notice": "No data service connected.",
+    "inputHashes": {}
+  },
+  "companies": [],
+  "sources": [],
+  "events": [],
+  "platforms": []
+}
