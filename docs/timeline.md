@@ -104,3 +104,4 @@ of this repository.
 - **2026-09-17 — release:** verify the production bundle.
 - **2026-09-17 — release:** review desktop presentation.
 - **2026-09-18 — release:** review mobile presentation.
+- **2026-09-19 — release:** prepare the public frontend-design release.
