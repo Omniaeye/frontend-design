@@ -1,0 +1,14 @@
+.omnia-brand{display:inline-flex!important;flex-direction:column;align-items:center;justify-content:center;gap:7px;line-height:1;color:#eff2f5}
+.omnia-brand .omnia-brand-eye{display:block!important;position:relative;width:44px;height:22px;overflow:hidden;clip-path:polygon(0 49%,16% 22%,32% 5%,50% 0,68% 5%,84% 24%,100% 49%,84% 78%,68% 96%,50% 100%,32% 95%,16% 77%)}
+.omnia-brand-eye img{position:absolute;left:-40%;top:-58%;width:180%;height:247%;max-width:none;object-fit:fill;pointer-events:none}
+.omnia-brand .omnia-brand-word{display:block;width:124px;height:18px;max-width:100%;object-fit:contain}
+.brand-eye-open{animation:omnia-brand-eye-open 9s step-end infinite}.brand-eye-half{animation:omnia-brand-eye-half 9s step-end infinite}.brand-eye-closed{animation:omnia-brand-eye-closed 9s step-end infinite}
+@keyframes omnia-brand-eye-open{0%,43%,100%{opacity:1}40%{opacity:0}}@keyframes omnia-brand-eye-half{0%,40.6%,42%,43%,100%{opacity:0}40%,42.4%{opacity:1}}@keyframes omnia-brand-eye-closed{0%,42.4%,100%{opacity:0}40.6%{opacity:1}}
+.product-wordmark{display:flex;align-items:center;justify-content:center;padding:22px 12px;min-height:92px;flex-shrink:0}
+.brand-social-links{display:flex;align-items:center;gap:18px}.brand-social-links a{color:#bcc5cb;text-decoration:none;font:10px "IBM Plex Mono",monospace;letter-spacing:.08em}.brand-social-links a:hover{color:#c3f53c}.sidebar .brand-social-links{padding:14px 8px 18px}.sidebar .brand-social-links a{display:inline-block!important}.topbar-actions>.brand-social-links{margin-right:10px}
+.header .wordmark{line-height:1}.header .omnia-brand-word{width:138px}.header-actions .brand-social-link{font-size:11px;letter-spacing:.08em;text-decoration:none}.footer-brand-name .omnia-brand-eye{width:70px;height:35px}.footer-brand-name .omnia-brand-word{width:240px;height:35px}.footer-nav .footer-github{display:flex;gap:16px;align-items:center;text-decoration:none}
+@media(max-width:800px){.topbar-actions>.brand-social-links{display:none}.header-actions{gap:12px!important}.header-actions .brand-social-link{font-size:10px}.header .omnia-brand-word{width:108px}.header .omnia-brand-eye{width:34px;height:17px}}
+@media(max-width:520px){.header-actions .enter-button{display:none}.header-actions{gap:10px!important}.header .omnia-brand-word{width:85px}}
+@media(prefers-reduced-motion:reduce){.omnia-brand-eye img{animation:none}.brand-eye-open{opacity:1}.brand-eye-half,.brand-eye-closed{opacity:0}}
+
+.sidebar .brand-social-links{flex-direction:row;justify-content:center;gap:18px}

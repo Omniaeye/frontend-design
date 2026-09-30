@@ -1,0 +1,23 @@
+/* Shared OMNIA interface palette. Platform marks and market semantics keep their own colors. */
+:root {
+  --omnia-canvas: #0b0d10;
+  --omnia-surface: #111418;
+  --omnia-raised: #181c22;
+  --omnia-hover: #22272f;
+  --omnia-border: #303741;
+  --omnia-border-soft: #252b33;
+  --omnia-text: #f0f2f5;
+  --omnia-muted: #b8c0ca;
+  --omnia-subtle: #99a4b2;
+  --omnia-accent: #c3f53c;
+  --omnia-accent-hover: #d5ff68;
+  --omnia-accent-soft: #1c2512;
+  --omnia-accent-border: #607c2c;
+  --omnia-canvas-rgb: 11, 13, 16;
+  --omnia-surface-rgb: 17, 20, 24;
+  --omnia-raised-rgb: 24, 28, 34;
+  --omnia-accent-rgb: 195, 245, 60;
+  --omnia-muted-rgb: 184, 192, 202;
+  --omnia-radius: 8px;
+  --omnia-radius-panel: 12px;
+}
