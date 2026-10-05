@@ -57,3 +57,9 @@ this revision. Ordinary panel transitions and accessibility preferences remain.
 Copyright © 2026 OMNIA EYE. Source available for portfolio and evaluation.
 See [LICENSE](LICENSE). Third-party names and marks identify their respective
 platforms and companies; their inclusion does not imply endorsement.
+
+## Product documentation
+
+Run the dev server and open `/docs/` for the existing OMNIA product documentation, source guides, integration setup and JEV pages. The main `/` panel entry is preserved. The documentation is a static entry and does not activate model inference, market collection or order execution.
+
+These documentation sources were imported through a reconstructed development history. Author dates are assigned organizational dates; committer dates record the actual import. See [Reconstruction provenance](docs/RECONSTRUCTION.md).

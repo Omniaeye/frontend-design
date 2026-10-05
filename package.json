@@ -8,7 +8,7 @@
     "build": "vite build",
     "preview": "vite preview --host 127.0.0.1 --port 4318",
     "typecheck": "tsc -p src/product/tsconfig.json",
-    "test": "node --test scripts/product-*.test.*",
+    "test": "node --test scripts/product-*.test.* scripts/docs-route.test.mjs",
     "format": "prettier --write src scripts index.html vite.config.js README.md docs",
     "format:check": "prettier --check src scripts index.html vite.config.js README.md docs"
   },
